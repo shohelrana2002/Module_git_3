@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.order_list {
+  margin: 5px;
+  padding: 10px 10px;
+  border: 5px solid greenyellow;
+  background-image: linear-gradient(45deg, orange, brown);
+}
+.order_list h2 {
+  color: #000;
+  margin: 20px 30px;
+  padding: 20px 20px;
+}
+.order_list .li {
+  margin: 10px 60px;
+  padding: 7px 10px;
+  font-size: 18px;
+  font-family: tahoma;
+  font-weight: 500;
+  color: yellow;
+  cursor: pointer;
+}
+.order_list .li:hover {
+  text-decoration: underline;
+  color: green;
+}
